@@ -7,7 +7,7 @@ print(firstCode)
 // Declaring multiple variables
 var variable1 = 32, variable2 = 4.5, variable3 = "Anon"
 
-print("Variable 1:", variable1)
+print("\nVariable 1:", variable1)
 print("Variable 2:", variable2)
 print("Variable 3:", variable3)
 
@@ -15,7 +15,7 @@ print("Variable 3:", variable3)
 //var variableName : Type = Value
 
 var myValue: Int = 555
-print("Type Annontation:", myValue)
+print("\nType Annontation:", myValue)
 
 var variableName1, variableName2, variableName3: Int
 
@@ -42,7 +42,7 @@ print("Constant Value 3:", myValue3)
 var varA = "Godzilla"
 var varB = 1000.00
 
-print("Value of \(varA) is more than \(varB) million")
+print("\nValue of \(varA) is more than \(varB) million")
 
 var name = "DH"
 var age = 30
@@ -57,7 +57,7 @@ print("Value of \(constA) is more than \(constB) millions")
 
 // Declaring Single constant
 let const = 42
-print("Constant Vaule:", const)
+print("\nConstant Vaule:", const)
 
 
 // Declaring multiple constant
@@ -66,3 +66,24 @@ let const1 = 52, const2 = 53, const3 = 34
 print("Constant VauleA:", const1)
 print("Constant VauleB:", const2)
 print("Constant VauleC:", const3)
+
+
+//Range Operator
+
+print("\nRange Values Are:")
+for x in 3...11 {
+    print(x)
+}
+
+var array = [2,4,3,11,7]
+
+print("\nSequence 1:")
+for i in array [...3]{
+    print(i)
+}
+
+print("\nSequence 2:")
+
+for i in array [..<3]{
+    print(i)
+}
